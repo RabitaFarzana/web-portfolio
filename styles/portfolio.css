@@ -124,14 +124,23 @@ main section{
     display: flex;
     gap: 24px;
 }
-.skill{
+.skills{
     padding: 30px;
     border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(red, green, blue, alpha);
+    background-color: #FFF;
+    box-shadow: 0px 6px 50px 0px bisque!important;
+
 
 }
 .skill-description{
     color: #757575;
 
+}
+
+/* Resume Section Styles*/
+
+.resume-column-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
 }
